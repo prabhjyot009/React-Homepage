@@ -1,0 +1,59 @@
+.logo {
+  height: 3rem;
+  width: 10rem;
+}
+.form-control {
+  border-radius: 8px 0px 0px 8px;
+  width: 400px;
+}
+.btn-warning {
+  border-radius: 0px 8px 8px 0px;
+}
+.cart {
+  font-size: 25px;
+  color: #613e3e;
+}
+
+.cart:hover {
+  color: #107cf7;
+}
+.login:hover {
+  background-color: #3710f7;
+}
+.login {
+  background-color: #f769fe;
+  border: none;
+}
+.navigation-bar {
+  background-color: #febd69;
+}
+
+span {
+  font-size: 10px;
+  background-color: #febd69;
+}
+
+/* Media queries for Header */
+@media only screen and (max-width: 600px) {
+  .form-control {
+    width: 100%;
+  }
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .form-control {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .form-control {
+    width: 100%;
+  }
+}

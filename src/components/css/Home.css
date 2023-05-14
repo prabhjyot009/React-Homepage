@@ -1,0 +1,100 @@
+/* CSS for HomeCover */
+.banner-img {
+  width: 100%;
+  opacity: 0.3;
+}
+
+.banner-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner-logo {
+  position: absolute;
+  opacity: 1;
+}
+
+.banner-logo > img {
+  width: 300px;
+}
+
+.banner-container > p {
+  position: absolute;
+  margin-top: 150px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: black;
+}
+
+h2 {
+  text-decoration: 3px #f79210 underline;
+}
+
+/* Media queries for Banner Container */
+@media only screen and (max-width: 600px) {
+  .banner-logo > img {
+    width: 150px;
+  }
+  .banner-container > p {
+    margin-top: 120px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+/* CSS For Slider */
+.slide-container {
+  width: 100%;
+  padding: 10px 0 !important;
+}
+.featured {
+  margin: 0 30px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .featured {
+    margin: 0 10px;
+  }
+}
+
+/*  */
+.card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.featured .card-img-top {
+  height: 200px;
+  object-fit: contain;
+  padding-top: 16px;
+}
+.featured .card-img-top:hover {
+  transform: scale(1.07);
+}
+.card-text {
+  line-height: 1.5em;
+  height: 3em; /* height is 3x line-height, so two lines will display */
+  overflow: hidden; /* prevents extra lines from being visible */
+}
+.featured button {
+  background-color: #febd69;
+  border: none;
+  border-radius: 8px;
+  margin: auto;
+}
+
+.featured .price {
+  color: #f79210;
+}
+
+.featured .add-to-cart {
+  color: black;
+  font-size: 25px;
+}
