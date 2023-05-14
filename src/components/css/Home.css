@@ -34,7 +34,8 @@
 }
 
 h2 {
-  text-decoration: 3px #f79210 underline;
+  align-items: center ;
+  text-decoration: 3px #585279 underline;
 }
 
 /* Media queries for Banner Container */
@@ -84,14 +85,14 @@ h2 {
   overflow: hidden; /* prevents extra lines from being visible */
 }
 .featured button {
-  background-color: #febd69;
+  background-color: #585279;
   border: none;
   border-radius: 8px;
   margin: auto;
 }
 
 .featured .price {
-  color: #f79210;
+  color: #585279;
 }
 
 .featured .add-to-cart {

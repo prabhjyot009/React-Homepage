@@ -7,30 +7,35 @@
   width: 400px;
 }
 .btn-warning {
+  background-color: #585279;
   border-radius: 0px 8px 8px 0px;
 }
+.btn-warning:hover {
+  background-color: #5f46ea;
+}
+
 .cart {
   font-size: 25px;
-  color: #613e3e;
+  color: #585279;
 }
 
 .cart:hover {
-  color: #107cf7;
+  color: #5f46ea;
 }
 .login:hover {
-  background-color: #3710f7;
+  background-color: #5f46ea;
 }
 .login {
-  background-color: #f769fe;
+  background-color: #585279;
   border: none;
 }
 .navigation-bar {
-  background-color: #febd69;
+  background-color: #585279;
 }
 
 span {
   font-size: 10px;
-  background-color: #febd69;
+  background-color: #585279;
 }
 
 /* Media queries for Header */
