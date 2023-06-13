@@ -1,6 +1,3 @@
-## Live Demo: 
-This is the link to see live demo of the project: https://eclectic-figolla-d619fb.netlify.app/
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
